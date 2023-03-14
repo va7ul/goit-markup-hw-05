@@ -45,7 +45,7 @@
 				<!-- <div class="overlay"> -->
 				<div class="container">
 					<h1 class="main-title">Effective Solutions for Your Business</h1>
-					<button class="modal-btn" type="button">Order Service</button>
+					<button class="modal-btn" type="button" data-modal-open>Order Service</button>
 				</div>
 				<!-- </div> -->
 			</section>
@@ -141,6 +141,7 @@
 											</svg>
 										</a>
 									</li>
+
 									<li class="social-list-item">
 										<a href="" class="social-list-link">
 											<svg class="social-list-icon" width="16px" height="16px">
@@ -148,6 +149,7 @@
 											</svg>
 										</a>
 									</li>
+
 									<li class="social-list-item">
 										<a href="" class="social-list-link">
 											<svg class="social-list-icon" width="16px" height="16px">
@@ -155,6 +157,7 @@
 											</svg>
 										</a>
 									</li>
+
 									<li class="social-list-item">
 										<a href="" class="social-list-link">
 											<svg class="social-list-icon" width="16px" height="16px">
@@ -385,5 +388,15 @@
 				</div>
 			</div>
 		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button type="button" class="modal-close-btn" data-modal-close>
+					<svg class="modal-close-btn-icon" width="8px" height="8px">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
